@@ -30,8 +30,9 @@ const camelCaseConversion = (stringValue) => {
     }
     const res = arrayWithElementsWithoutSpecialCharacter.join();
     const resFinal = res.replace(specialCharacterRegEx , '');
-    console.log(resFinal);
+    return resFinal;
 }
 
 
-camelCaseConversion(str);
+const camelCaseFinal = camelCaseConversion(str);
+console.log(camelCaseFinal);
