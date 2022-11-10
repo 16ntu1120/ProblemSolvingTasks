@@ -1,3 +1,6 @@
+// Problem Statement
+// Your functions takes an equation in the form of string and you will have to calculate the
+// value of x in it.
 
 const equation = "3x + 1 = 40";
 const numberRegEx = /^[0-9]+$/;
