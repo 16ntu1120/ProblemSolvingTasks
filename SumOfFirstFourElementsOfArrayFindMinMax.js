@@ -1,3 +1,6 @@
+//Problem Statement
+//Sum four out of five indexes in array find the max and min values after adding the four indexes out of five
+
 
 const calculateMinMax = () => {
 const arr = [1,2,3,4,5];
