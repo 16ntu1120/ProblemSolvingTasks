@@ -6,12 +6,11 @@ let index = arr[0];
 let min = 0;
 const checkMinValue = (ar) => {
     for (let i = 0; i < ar.length; i++) {
-        if(index >= ar[i]) {
-            // console.log(ar[i]);
-            continue;
-        } else {
+        if(ar[i] >= index ) {
             index = ar[i];
             min = ar[i];
+        } else {
+            continue;
         }
     }
     return min
