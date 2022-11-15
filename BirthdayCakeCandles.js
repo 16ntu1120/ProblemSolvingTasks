@@ -1,7 +1,7 @@
 //Problem Statement
 //You are in charge of the cake for a child's birthday. 
 //You have decided the cake will have one candle for each year of their total age. They will only be able to blow out the tallest of the candles. Count how many candles are tallest.
-
+//Example: find highest element of array and number of times it occured
 
 const birthdayCake = () => {
     const ar = [67,6,2,98,6,62,6,6,1,3];
